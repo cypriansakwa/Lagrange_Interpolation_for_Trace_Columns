@@ -1,0 +1,9 @@
+[package]
+name = "Lagrange_Interpolation_for_Trace_Columns"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ark-ff = "0.5.0"
+ark-poly = "0.5.0"
+ark-bn254 = "0.5.0"
