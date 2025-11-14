@@ -5,10 +5,10 @@ This project demonstrates manual Lagrange interpolation and a STARK-style transi
 The example reconstructs two polynomials `poly_x(t)` and `poly_y(t)` from trace points over the BN254 finite field. These polynomials represent an iterative system governed by:
 
 ## Recurrence relations:
-
-xₜ₊₁ = 2·xₜ + yₜ
+ ```bash
+  xₜ₊₁ = 2·xₜ + yₜ
 yₜ₊₁ = xₜ + 3·yₜ
-
+```
 Starting from the initial state (x₀, y₀) = (1, 0), the program performs interpolation and verifies that all transitions satisfy the recurrence correctly.
 
 ## Features
