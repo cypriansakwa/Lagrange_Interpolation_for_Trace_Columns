@@ -6,7 +6,7 @@ The example reconstructs two polynomials `poly_x(t)` and `poly_y(t)` from trace 
 
 ## Recurrence relations:
  ```bash
-  xₜ₊₁ = 2·xₜ + yₜ
+xₜ₊₁ = 2·xₜ + yₜ
 yₜ₊₁ = xₜ + 3·yₜ
 ```
 Starting from the initial state (x₀, y₀) = (1, 0), the program performs interpolation and verifies that all transitions satisfy the recurrence correctly.
